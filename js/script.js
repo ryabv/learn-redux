@@ -102,7 +102,6 @@ class Table extends View {
 
 	destroy() {
 		super.destroy();
-		this._el.removeEventListener('submit', this._onInput);
 	}
 }
 
