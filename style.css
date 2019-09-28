@@ -1034,7 +1034,7 @@
 .Table-Row {
     border-bottom: 1px solid #f2f2f2;
 }
-.Table-Row:last-child {
+.Table-Row:last-child:not(.Table-Row_header) {
     border-bottom-color: #fff;
 }
 .Table-Row_header {

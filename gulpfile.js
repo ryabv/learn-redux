@@ -11,4 +11,5 @@ gulp.task('server', function() {
     gulp.watch('./img/*').on('change', browserSync.reload);
     gulp.watch('./*.html').on('change', browserSync.reload);
     gulp.watch('./*.css').on('change', browserSync.reload);
+    gulp.watch('./js/*.js').on('change', browserSync.reload);
 });
